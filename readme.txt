@@ -33,7 +33,7 @@ The payment page offers only the coins you have set a wallet for in the Orboni d
 **Built for real orders**
 
 * Works with the block checkout and the classic checkout, and with WooCommerce's order tables (HPOS).
-* Underpaid, overpaid, late and reversed payments are written on the order as notes, and the order is held for you instead of being completed or shipped by mistake.
+* Underpaid and reversed payments, and payments held for your review, put the order on hold with a note, so nothing is completed or shipped by mistake. An overpaid order is marked paid, and its note says how much arrived.
 * A buyer who comes back and pays again gets the same payment page, never a second charge for the same order.
 * Test keys let you try the whole flow before you take real payments.
 
@@ -60,7 +60,7 @@ Orboni takes 37 currencies, listed above: the payment page shows the order's tot
 
 = What happens if a buyer sends too little or too much? =
 
-Too little: the payment page asks for the rest, and the order stays on hold with a note. If the page expires part paid, the order stays on hold for you to settle with the buyer. Too much: the order is paid, and a note says how much arrived in all; refunds are sent from your own wallet.
+Too little: the payment page asks for the rest, and the order stays on hold with a note. If the page expires part paid, the order stays on hold for you to settle with the buyer. Too much: the order is paid, and a note says how much arrived in all; send the difference back from your own wallet. Only a payment far above the total (over twice it, and over $50 more) to a Bitcoin-style address is held for your review in the Orboni dashboard first, since it may be someone else's payment; the order stays on hold until you accept it there.
 
 = How do refunds work? =
 
