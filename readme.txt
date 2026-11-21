@@ -34,7 +34,7 @@ The payment page offers only the coins you have set a wallet for in the Orboni d
 
 * Works with the block checkout and the classic checkout, and with WooCommerce's order tables (HPOS).
 * Underpaid and reversed payments, and payments held for your review, put the order on hold with a note, so nothing is completed or shipped by mistake. An overpaid order is marked paid, and its note says how much arrived.
-* A buyer who comes back and pays again gets the same payment page, never a second charge for the same order.
+* A buyer who comes back and pays again gets the same payment page while it has more than five minutes left, and a fresh one after that.
 * Test keys let you try the whole flow before you take real payments.
 
 Your store can sell in US dollars, euros, pounds, Swiss francs, złoty, Czech koruna, forints, lei, Danish, Swedish and Norwegian kroner, Icelandic krónur, lira, yen, won, yuan, Hong Kong and Singapore dollars, rupees, rupiah, ringgit, pesos (Philippine and Mexican), baht, shekels, Australian, New Zealand and Canadian dollars, reais, rand, hryvnias, Argentine and Chilean pesos, dirhams, riyals, Taiwan dollars and đồng. Orboni turns the price into dollars at the rate of the day (the European Central Bank's, or the market's for a currency the ECB does not publish), and the buyer pays that in the coin they pick. A payment is worth at least $1.
